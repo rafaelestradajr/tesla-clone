@@ -15,7 +15,7 @@ const cars = useSelector(selectCars)
     
     <Container>
       <a>
-        <img  src='tesla-clone\public\images\logo.svg' alt=''/>
+        <img  src='https://rafaelestradajr.github.io/tesla-clone/images/logo.svg' alt=''/>
       </a>
 
       <Menu>
