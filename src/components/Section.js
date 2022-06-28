@@ -47,12 +47,12 @@ background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
 
-background-image: url('../images/model-3.jpg');
+background-image: url('./images/model-3.jpg');
 display:flex;
 flex-direction:column;
 justify-content:space-between;
 align-items:center;
-background-image: ${props => `url("../images/${props.bgImage}")`}
+background-image: ${props => `url("./images/${props.bgImage}")`}
 
 `
 const ItemText = styled.div`
